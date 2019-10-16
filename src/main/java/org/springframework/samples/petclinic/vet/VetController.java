@@ -31,7 +31,8 @@ import java.util.Map;
 class VetController {
 
     private final VetRepository vets;
-
+@NotNull    
+private String s = null;
     public VetController(VetRepository clinicService) {
         this.vets = clinicService;
     }
